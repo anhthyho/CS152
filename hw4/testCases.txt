@@ -1,0 +1,133 @@
+route(sfo, phl, [], DT, AT, Flights, TotalCost).
+DT = 8:20,
+AT = 16:37,
+Flights = [sfo, phl],
+TotalCost = 890.71 ;
+false.
+
+route(ewr, sfo, [], DT, AT, Flights, TotalCost).
+DT = 7:30,
+AT = 10:55,
+Flights = [ewr, sfo],
+TotalCost = 313.4 ;
+DT = 10:30,
+AT = 13:55,
+Flights = [ewr, sfo],
+TotalCost = 313.4 ;
+DT = 16:11,
+AT = 19:40,
+Flights = [ewr, sfo],
+TotalCost = 313.4 ;
+DT = 9:0,
+AT = 16:25,
+Flights = [ewr, aus, sfo],
+TotalCost = 639.35 ;
+DT = 9:0,
+AT = 17:10,
+Flights = [ewr, aus, lax, sfo],
+TotalCost = 794.4 ;
+DT = 9:5,
+AT = 17:10,
+Flights = [ewr, lax, sfo],
+TotalCost = 374.52000000000004 ;
+DT = 6:59,
+AT = 19:40,
+Flights = [ewr, phl, sfo],
+TotalCost = 1203.43 ;
+DT = 11:35,
+AT = 19:40,
+Flights = [ewr, phl, sfo],
+TotalCost = 1203.43 ;
+DT = 14:29,
+AT = 19:40,
+Flights = [ewr, phl, sfo],
+TotalCost = 1203.43 ;
+false.
+
+route(phl, sjc, [], DT, AT, Flights, TotalCost).
+DT = 6:0,
+AT = 19:15,
+Flights = [phl, sfo, lax, sjc],
+TotalCost = 1026.69 ;
+false.
+
+route(ewr, aus, [], DT, AT, Flights, TotalCost).
+DT = 9:0,
+AT = 12:22,
+Flights = [ewr, aus],
+TotalCost = 240.15 ;
+DT = 19:15,
+AT = 22:46,
+Flights = [ewr, aus],
+TotalCost = 240.15 ;
+DT = 9:5,
+AT = 19:25,
+Flights = [ewr, lax, aus],
+TotalCost = 589.6700000000001 ;
+DT = 6:59,
+AT = 20:16,
+Flights = [ewr, phl, aus],
+TotalCost = 843.4300000000001 ;
+DT = 11:35,
+AT = 20:16,
+Flights = [ewr, phl, aus],
+TotalCost = 843.4300000000001 ;
+DT = 14:29,
+AT = 20:16,
+Flights = [ewr, phl, aus],
+TotalCost = 843.4300000000001 ;
+DT = 7:30,
+AT = 19:25,
+Flights = [ewr, sfo, lax, aus],
+TotalCost = 700.02 ;
+false.
+
+route(sfo, aus, [], DT, AT, Flights, TotalCost).
+DT = 6:5,
+AT = 13:33,
+Flights = [sfo, aus],
+TotalCost = 399.2 ;
+DT = 8:0,
+AT = 19:25,
+Flights = [sfo, lax, aus],
+TotalCost = 383.51 ;
+DT = 12:40,
+AT = 19:25,
+Flights = [sfo, lax, aus],
+TotalCost = 386.62 ;
+DT = 8:20,
+AT = 20:16,
+Flights = [sfo, phl, aus],
+TotalCost = 1318.18 ;
+DT = 7:25,
+AT = 22:46,
+Flights = [sfo, ewr, aus],
+TotalCost = 553.55 ;
+false.
+
+route(ewr, sjc, [], DT, AT, Flights, TotalCost).
+DT = 9:0,
+AT = 19:15,
+Flights = [ewr, aus, lax, sjc],
+TotalCost = 862.15 ;
+DT = 9:5,
+AT = 19:15,
+Flights = [ewr, lax, sjc],
+TotalCost = 442.27000000000004 ;
+DT = 7:30,
+AT = 19:15,
+Flights = [ewr, sfo, lax, sjc],
+TotalCost = 552.62 ;
+false.
+
+
+
+
+
+
+
+
+
+
+
+

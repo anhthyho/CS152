@@ -1,0 +1,19 @@
+{
+  "name": "hw3",
+  "version": "1.0.0",
+  "main": "contracts.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anhthy",
+  "license": "ISC",
+  "dependencies": {
+    "contracts": "^0.4.0",
+    "contracts.js": "^1.0.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

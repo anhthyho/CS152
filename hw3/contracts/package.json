@@ -1,0 +1,15 @@
+{
+  "name": "contracts.js",
+  "version": "1.0.0",
+  "main": "contracts.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "anhthy",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^6.2.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}

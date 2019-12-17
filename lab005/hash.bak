@@ -1,0 +1,3 @@
+#lang racket
+(define ht(hash "a" 1 "b" 2))
+(hash-ref ht "a")

@@ -1,0 +1,8 @@
+#lang racket
+
+(define (my-if c thn els)
+  (cond [(and (list? c) (empty? c)) else]
+        [(and (number? c) (= 0 c)) else]
+        [(and (boolean? c) (not c)) else]
+        [else thn])
+  )

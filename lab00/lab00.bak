@@ -1,0 +1,23 @@
+ #lang racket
+; Exports.  In Java terminology, these functions are public.(provide rectangle-area square-area triangle-area)
+
+; Returns the area of a rectangle.
+; If the area would be negative, the absolute value is returned instead.
+
+(define (rectangle-area w h)
+  
+(* (abs w) (abs h))
+  )
+
+; Returns the area of a square.
+
+(define (square-area s)
+  (* (abs s) (abs s))
+ )
+
+; Returns the area of a triangle.
+
+(define (triangle-area b h)
+  
+(*(/ 1 2) (abs b) (abs h))
+  )

@@ -1,0 +1,7 @@
+#lang racket
+(define-syntax swap
+(syntax-rules ()
+[(swap x y)
+(let ([tmp x])
+(set! x y)
+(set! y tmp))]))

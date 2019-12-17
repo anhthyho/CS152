@@ -1,0 +1,5 @@
+#lang racket
+(define largest-elem(list num)
+  (cond[(= null (car num)) (0)]
+       [return car(num)])
+  )
